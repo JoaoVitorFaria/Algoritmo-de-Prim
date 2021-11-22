@@ -1,4 +1,4 @@
-//Jo„o Vitor de Faria-2019006030
+
 #include<stdio.h>
 #include<stdlib.h>
 #include<limits.h>
@@ -56,7 +56,7 @@ int main(int argc, char* argv[])
 	//**************************
 
 
-	//aqui eu declaro um vetor que vai me indicar se os vertices j· foram visitados ou nao.
+	//aqui eu declaro um vetor que vai me indicar se os vertices j√° foram visitados ou nao.
 	//inicializo eles com false e mudo para true quando visita-los
 	bool visitados[vertice];
 	int i;
@@ -68,7 +68,7 @@ int main(int argc, char* argv[])
 
 
 
-	//vou comeÁar visitando do vertice 0, entao ja marco ele como visitado
+	//vou come√ßar visitando do vertice 0, entao ja marco ele como visitado
 	visitados[0] = true;
 	//esse vetor vai servir para guardar informacoes das arestas escolhidas
 	pair arestasEscolhidas[vertice];
